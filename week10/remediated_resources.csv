@@ -1,0 +1,17 @@
+AccountID,ResourceID,Service,Region,Department,Project,Environment,Owner,CostCenter,CreatedBy,MonthlyCostUSD,Tagged
+1001,i-001,EC2,us-east-1,Marketing,CampaignApp,Prod,j.smith@cloudmart.com,CC101,Terraform,120,Yes
+1001,i-002,EC2,us-east-1,Marketing,CampaignApp,Dev,marketing-team@cloudmart.com,CC101,Terraform,80,Yes
+1001,s3-001,S3,us-east-1,Marketing,AdsAPI,Prod,j.smith@cloudmart.com,CC101,Jenkins,60,Yes
+1001,s3-002,S3,us-east-1,Marketing,AdsAPI,Dev,marketing-team@cloudmart.com,CC101,Jenkins,25,Yes
+1001,api-001,APIGateway,us-east-2,Marketing,AdsAPI,Prod,j.smith@cloudmart.com,CC101,Jenkins,70,Yes
+1001,api-002,APIGateway,us-east-2,Marketing,AdsAPI,Dev,marketing-team@cloudmart.com,CC101,Terraform,35,Yes
+1001,ebs-001,EBS,us-west-1,Marketing,CampaignApp,Prod,j.smith@cloudmart.com,CC101,Terraform,50,Yes
+1001,ebs-002,EBS,us-west-1,Marketing,CampaignApp,Dev,marketing-team@cloudmart.com,CC101,Manual,45,Yes
+1002,rds-001,RDS,us-west-2,Sales,CRMTool,Prod,a.lee@cloudmart.com,CC102,CloudFormation,300,Yes
+1002,rds-002,RDS,us-west-2,Sales,CRMTool,Dev,sales-team@cloudmart.com,CC102,Jenkins,150,Yes
+1002,cf-001,CloudFront,us-east-1,Sales,CRMTool,Prod,a.lee@cloudmart.com,CC102,Jenkins,200,Yes
+1002,cf-002,CloudFront,us-east-1,Sales,CRMTool,Dev,sales-team@cloudmart.com,CC102,Manual,90,Yes
+1002,ec2-003,EC2,us-east-2,Sales,CRMTool,Prod,a.lee@cloudmart.com,CC102,Jenkins,220,Yes
+1002,ec2-004,EC2,us-east-2,Sales,CRMTool,Dev,sales-team@cloudmart.com,CC102,Jenkins,200,Yes
+1003,lambda-001,Lambda,us-east-1,Analytics,Insights,Prod,k.patel@cloudmart.com,CC103,Terraform,70,Yes
+1003,lambda-002,Lambda,us-east-1,Analytics,Insights,Dev,analytics-team@cloudmart.com,CC103,Manual,40,Yes
