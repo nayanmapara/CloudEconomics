@@ -11,8 +11,8 @@ st.set_page_config(page_title="CloudMart Tagging & Cost Visibility", layout="wid
 # -------------------------
 # Helpers
 # -------------------------
-DEFAULT_PATH = "cloudmart_multi_account.csv"
-REMIDIATED_SAVE_PATH = "remediated_cloudmart.csv"
+DEFAULT_PATH = "week10/cloudmart_multi_account.csv"
+REMIDIATED_SAVE_PATH = "week10/remediated_cloudmart.csv"
 
 TAG_FIELDS = [
     "Department",
